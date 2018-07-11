@@ -51,4 +51,5 @@ to have a proper secret key.
 (virt) soapbox/soapbox$ ./manage.py runserver
 ```
 
-and navigate your browser to localhost:8000. 
+and navigate your browser to localhost:8000
+
