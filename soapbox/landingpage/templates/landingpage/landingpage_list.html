@@ -1,0 +1,4 @@
+<h1>Landing Pages</h1>
+{% for page in landingpages %}
+    <a href="{{ page.slug }}">{{page.name}}</a>
+{% endfor %}

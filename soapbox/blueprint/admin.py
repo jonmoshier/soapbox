@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Blueprint
 
-# Register your models here.
+class BlueprintAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(Blueprint, BlueprintAdmin)
